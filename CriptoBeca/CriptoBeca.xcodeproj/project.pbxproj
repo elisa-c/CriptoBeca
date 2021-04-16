@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -106,6 +106,85 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		596CEF56262A27F000493886 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		596CEF5A262A27FC00493886 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				66F8B3AC262A200A006ABE9F /* AppDelegate.swift */,
+				66F8B3AE262A200A006ABE9F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		596CEF5B262A280A00493886 /* PaginaInicial */ = {
+			isa = PBXGroup;
+			children = (
+				596CEF60262A285E00493886 /* Controller */,
+				596CEF5F262A285800493886 /* View */,
+			);
+			path = PaginaInicial;
+			sourceTree = "<group>";
+		};
+		596CEF5C262A282100493886 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				596CEF61262A286F00493886 /* Codable */,
+				596CEF62262A287800493886 /* Provider */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		596CEF5D262A282800493886 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		596CEF5E262A283300493886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66F8B3BA262A200E006ABE9F /* LaunchScreen.storyboard */,
+				66F8B3B2262A200A006ABE9F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		596CEF5F262A285800493886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		596CEF60262A285E00493886 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66F8B3B0262A200A006ABE9F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		596CEF61262A286F00493886 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		596CEF62262A287800493886 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		66F8B3A0262A200A006ABE9F = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +210,13 @@
 		66F8B3AB262A200A006ABE9F /* CriptoBeca */ = {
 			isa = PBXGroup;
 			children = (
-				66F8B3AC262A200A006ABE9F /* AppDelegate.swift */,
-				66F8B3AE262A200A006ABE9F /* SceneDelegate.swift */,
-				66F8B3B0262A200A006ABE9F /* ViewController.swift */,
-				66F8B3B2262A200A006ABE9F /* Main.storyboard */,
+				596CEF5A262A27FC00493886 /* Application */,
+				596CEF56262A27F000493886 /* Favorites */,
+				596CEF5C262A282100493886 /* Model */,
+				596CEF5B262A280A00493886 /* PaginaInicial */,
+				596CEF5D262A282800493886 /* ViewModel */,
+				596CEF5E262A283300493886 /* View */,
 				66F8B3B8262A200E006ABE9F /* Assets.xcassets */,
-				66F8B3BA262A200E006ABE9F /* LaunchScreen.storyboard */,
 				66F8B3BD262A200E006ABE9F /* Info.plist */,
 				66F8B3B5262A200A006ABE9F /* CriptoBeca.xcdatamodeld */,
 			);
