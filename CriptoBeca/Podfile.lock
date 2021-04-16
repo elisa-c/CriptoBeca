@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - DetailsLibrary (0.1.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.4.0)
+  - DetailsLibrary (~> 0.1.0)
+  - Reusable
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Reusable
+    - SwiftLint
+  https://github.com/elisa-c/DetailsPodSpecs.git:
+    - DetailsLibrary
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  DetailsLibrary: 355759ab0ec84860969874910ceed45063e40a26
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: 34a72357ba47495a53ea27bd0ed03b5f29356b71
+
+COCOAPODS: 1.10.1

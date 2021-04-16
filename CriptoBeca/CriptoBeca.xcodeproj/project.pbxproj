@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F8B3AD262A200A006ABE9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8B3AC262A200A006ABE9F /* AppDelegate.swift */; };
+		66F8B3AF262A200A006ABE9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8B3AE262A200A006ABE9F /* SceneDelegate.swift */; };
+		66F8B3B1262A200A006ABE9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8B3B0262A200A006ABE9F /* ViewController.swift */; };
+		66F8B3B4262A200A006ABE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F8B3B2262A200A006ABE9F /* Main.storyboard */; };
+		66F8B3B7262A200A006ABE9F /* CriptoBeca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66F8B3B5262A200A006ABE9F /* CriptoBeca.xcdatamodeld */; };
+		66F8B3B9262A200E006ABE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F8B3B8262A200E006ABE9F /* Assets.xcassets */; };
+		66F8B3BC262A200E006ABE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F8B3BA262A200E006ABE9F /* LaunchScreen.storyboard */; };
+		66F8B3C7262A200E006ABE9F /* CriptoBecaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8B3C6262A200E006ABE9F /* CriptoBecaTests.swift */; };
+		66F8B3D2262A200E006ABE9F /* CriptoBecaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8B3D1262A200E006ABE9F /* CriptoBecaUITests.swift */; };
+		82392974C42BA3355E0ABDD5 /* Pods_CriptoBeca_CriptoBecaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8288C94A2B8C6D2123FE9B3 /* Pods_CriptoBeca_CriptoBecaUITests.framework */; };
+		87FAB05311B726F742698D37 /* Pods_CriptoBeca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C062C25E172A0AE97FBF9C /* Pods_CriptoBeca.framework */; };
+		8D2AE5754195AC32A28BF75F /* Pods_CriptoBecaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C0BB49DB28B34F7569D776 /* Pods_CriptoBecaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F8B3C3262A200E006ABE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F8B3A1262A200A006ABE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F8B3A8262A200A006ABE9F;
+			remoteInfo = CriptoBeca;
+		};
+		66F8B3CE262A200E006ABE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F8B3A1262A200A006ABE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F8B3A8262A200A006ABE9F;
+			remoteInfo = CriptoBeca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0645BE00B765EFF78AE57A36 /* Pods-CriptoBeca-CriptoBecaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoBeca-CriptoBecaUITests.debug.xcconfig"; path = "Target Support Files/Pods-CriptoBeca-CriptoBecaUITests/Pods-CriptoBeca-CriptoBecaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DCF3A97E84217CCD9D5F5AB /* Pods-CriptoBeca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoBeca.debug.xcconfig"; path = "Target Support Files/Pods-CriptoBeca/Pods-CriptoBeca.debug.xcconfig"; sourceTree = "<group>"; };
+		22DABCC0170D7630CA4615C7 /* Pods-CriptoBecaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoBecaTests.debug.xcconfig"; path = "Target Support Files/Pods-CriptoBecaTests/Pods-CriptoBecaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3775215373A1935A10DB21 /* Pods-CriptoBeca-CriptoBecaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoBeca-CriptoBecaUITests.release.xcconfig"; path = "Target Support Files/Pods-CriptoBeca-CriptoBecaUITests/Pods-CriptoBeca-CriptoBecaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66F8B3A9262A200A006ABE9F /* CriptoBeca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CriptoBeca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F8B3AC262A200A006ABE9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66F8B3AE262A200A006ABE9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66F8B3B0262A200A006ABE9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66F8B3B3262A200A006ABE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F8B3B6262A200A006ABE9F /* CriptoBeca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CriptoBeca.xcdatamodel; sourceTree = "<group>"; };
+		66F8B3B8262A200E006ABE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F8B3BB262A200E006ABE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66F8B3BD262A200E006ABE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F8B3C2262A200E006ABE9F /* CriptoBecaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptoBecaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F8B3C6262A200E006ABE9F /* CriptoBecaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoBecaTests.swift; sourceTree = "<group>"; };
+		66F8B3C8262A200E006ABE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F8B3CD262A200E006ABE9F /* CriptoBecaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptoBecaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F8B3D1262A200E006ABE9F /* CriptoBecaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoBecaUITests.swift; sourceTree = "<group>"; };
+		66F8B3D3262A200E006ABE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753CF5EC47C1DAA88B953B24 /* Pods-CriptoBecaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoBecaTests.release.xcconfig"; path = "Target Support Files/Pods-CriptoBecaTests/Pods-CriptoBecaTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3C062C25E172A0AE97FBF9C /* Pods_CriptoBeca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CriptoBeca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C0BB49DB28B34F7569D776 /* Pods_CriptoBecaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CriptoBecaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8288C94A2B8C6D2123FE9B3 /* Pods_CriptoBeca_CriptoBecaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CriptoBeca_CriptoBecaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C7D00CA5E1366C6AC80C0E /* Pods-CriptoBeca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CriptoBeca.release.xcconfig"; path = "Target Support Files/Pods-CriptoBeca/Pods-CriptoBeca.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F8B3A6262A200A006ABE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FAB05311B726F742698D37 /* Pods_CriptoBeca.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F8B3BF262A200E006ABE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2AE5754195AC32A28BF75F /* Pods_CriptoBecaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F8B3CA262A200E006ABE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82392974C42BA3355E0ABDD5 /* Pods_CriptoBeca_CriptoBecaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4784D5A8A6CE376156AB0E38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCF3A97E84217CCD9D5F5AB /* Pods-CriptoBeca.debug.xcconfig */,
+				F8C7D00CA5E1366C6AC80C0E /* Pods-CriptoBeca.release.xcconfig */,
+				0645BE00B765EFF78AE57A36 /* Pods-CriptoBeca-CriptoBecaUITests.debug.xcconfig */,
+				2B3775215373A1935A10DB21 /* Pods-CriptoBeca-CriptoBecaUITests.release.xcconfig */,
+				22DABCC0170D7630CA4615C7 /* Pods-CriptoBecaTests.debug.xcconfig */,
+				753CF5EC47C1DAA88B953B24 /* Pods-CriptoBecaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66F8B3A0262A200A006ABE9F = {
+			isa = PBXGroup;
+			children = (
+				66F8B3AB262A200A006ABE9F /* CriptoBeca */,
+				66F8B3C5262A200E006ABE9F /* CriptoBecaTests */,
+				66F8B3D0262A200E006ABE9F /* CriptoBecaUITests */,
+				66F8B3AA262A200A006ABE9F /* Products */,
+				4784D5A8A6CE376156AB0E38 /* Pods */,
+				DD2C20ACFA2914DABB1071CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66F8B3AA262A200A006ABE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F8B3A9262A200A006ABE9F /* CriptoBeca.app */,
+				66F8B3C2262A200E006ABE9F /* CriptoBecaTests.xctest */,
+				66F8B3CD262A200E006ABE9F /* CriptoBecaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F8B3AB262A200A006ABE9F /* CriptoBeca */ = {
+			isa = PBXGroup;
+			children = (
+				66F8B3AC262A200A006ABE9F /* AppDelegate.swift */,
+				66F8B3AE262A200A006ABE9F /* SceneDelegate.swift */,
+				66F8B3B0262A200A006ABE9F /* ViewController.swift */,
+				66F8B3B2262A200A006ABE9F /* Main.storyboard */,
+				66F8B3B8262A200E006ABE9F /* Assets.xcassets */,
+				66F8B3BA262A200E006ABE9F /* LaunchScreen.storyboard */,
+				66F8B3BD262A200E006ABE9F /* Info.plist */,
+				66F8B3B5262A200A006ABE9F /* CriptoBeca.xcdatamodeld */,
+			);
+			path = CriptoBeca;
+			sourceTree = "<group>";
+		};
+		66F8B3C5262A200E006ABE9F /* CriptoBecaTests */ = {
+			isa = PBXGroup;
+			children = (
+				66F8B3C6262A200E006ABE9F /* CriptoBecaTests.swift */,
+				66F8B3C8262A200E006ABE9F /* Info.plist */,
+			);
+			path = CriptoBecaTests;
+			sourceTree = "<group>";
+		};
+		66F8B3D0262A200E006ABE9F /* CriptoBecaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66F8B3D1262A200E006ABE9F /* CriptoBecaUITests.swift */,
+				66F8B3D3262A200E006ABE9F /* Info.plist */,
+			);
+			path = CriptoBecaUITests;
+			sourceTree = "<group>";
+		};
+		DD2C20ACFA2914DABB1071CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C062C25E172A0AE97FBF9C /* Pods_CriptoBeca.framework */,
+				F8288C94A2B8C6D2123FE9B3 /* Pods_CriptoBeca_CriptoBecaUITests.framework */,
+				F7C0BB49DB28B34F7569D776 /* Pods_CriptoBecaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F8B3A8262A200A006ABE9F /* CriptoBeca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F8B3D6262A200E006ABE9F /* Build configuration list for PBXNativeTarget "CriptoBeca" */;
+			buildPhases = (
+				E36B83B3634037C3E3A28F4C /* [CP] Check Pods Manifest.lock */,
+				66F8B3A5262A200A006ABE9F /* Sources */,
+				66F8B3A6262A200A006ABE9F /* Frameworks */,
+				66F8B3A7262A200A006ABE9F /* Resources */,
+				6637FC7B262A22F20045F134 /* ShellScript */,
+				F119BEB2B3073BA43A75C6A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CriptoBeca;
+			productName = CriptoBeca;
+			productReference = 66F8B3A9262A200A006ABE9F /* CriptoBeca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F8B3C1262A200E006ABE9F /* CriptoBecaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F8B3D9262A200E006ABE9F /* Build configuration list for PBXNativeTarget "CriptoBecaTests" */;
+			buildPhases = (
+				0C824D3FC867BFA45509814E /* [CP] Check Pods Manifest.lock */,
+				66F8B3BE262A200E006ABE9F /* Sources */,
+				66F8B3BF262A200E006ABE9F /* Frameworks */,
+				66F8B3C0262A200E006ABE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F8B3C4262A200E006ABE9F /* PBXTargetDependency */,
+			);
+			name = CriptoBecaTests;
+			productName = CriptoBecaTests;
+			productReference = 66F8B3C2262A200E006ABE9F /* CriptoBecaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66F8B3CC262A200E006ABE9F /* CriptoBecaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F8B3DC262A200E006ABE9F /* Build configuration list for PBXNativeTarget "CriptoBecaUITests" */;
+			buildPhases = (
+				E5E10E9140A87A2CAA06AEB1 /* [CP] Check Pods Manifest.lock */,
+				66F8B3C9262A200E006ABE9F /* Sources */,
+				66F8B3CA262A200E006ABE9F /* Frameworks */,
+				66F8B3CB262A200E006ABE9F /* Resources */,
+				204D453D9F59BC61B58B9C85 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F8B3CF262A200E006ABE9F /* PBXTargetDependency */,
+			);
+			name = CriptoBecaUITests;
+			productName = CriptoBecaUITests;
+			productReference = 66F8B3CD262A200E006ABE9F /* CriptoBecaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F8B3A1262A200A006ABE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					66F8B3A8262A200A006ABE9F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					66F8B3C1262A200E006ABE9F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 66F8B3A8262A200A006ABE9F;
+					};
+					66F8B3CC262A200E006ABE9F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 66F8B3A8262A200A006ABE9F;
+					};
+				};
+			};
+			buildConfigurationList = 66F8B3A4262A200A006ABE9F /* Build configuration list for PBXProject "CriptoBeca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F8B3A0262A200A006ABE9F;
+			productRefGroup = 66F8B3AA262A200A006ABE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F8B3A8262A200A006ABE9F /* CriptoBeca */,
+				66F8B3C1262A200E006ABE9F /* CriptoBecaTests */,
+				66F8B3CC262A200E006ABE9F /* CriptoBecaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F8B3A7262A200A006ABE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F8B3BC262A200E006ABE9F /* LaunchScreen.storyboard in Resources */,
+				66F8B3B9262A200E006ABE9F /* Assets.xcassets in Resources */,
+				66F8B3B4262A200A006ABE9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F8B3C0262A200E006ABE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F8B3CB262A200E006ABE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C824D3FC867BFA45509814E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CriptoBecaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204D453D9F59BC61B58B9C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CriptoBeca-CriptoBecaUITests/Pods-CriptoBeca-CriptoBecaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CriptoBeca-CriptoBecaUITests/Pods-CriptoBeca-CriptoBecaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CriptoBeca-CriptoBecaUITests/Pods-CriptoBeca-CriptoBecaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6637FC7B262A22F20045F134 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n\n${PODS_ROOT}/SwiftLint/swiftlint autocorrect\n\n\n\nelse\n\n\n\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n\n\n\nfi\n\n";
+		};
+		E36B83B3634037C3E3A28F4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CriptoBeca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E10E9140A87A2CAA06AEB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CriptoBeca-CriptoBecaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F119BEB2B3073BA43A75C6A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CriptoBeca/Pods-CriptoBeca-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CriptoBeca/Pods-CriptoBeca-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CriptoBeca/Pods-CriptoBeca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F8B3A5262A200A006ABE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F8B3B1262A200A006ABE9F /* ViewController.swift in Sources */,
+				66F8B3AD262A200A006ABE9F /* AppDelegate.swift in Sources */,
+				66F8B3AF262A200A006ABE9F /* SceneDelegate.swift in Sources */,
+				66F8B3B7262A200A006ABE9F /* CriptoBeca.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F8B3BE262A200E006ABE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F8B3C7262A200E006ABE9F /* CriptoBecaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F8B3C9262A200E006ABE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F8B3D2262A200E006ABE9F /* CriptoBecaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F8B3C4262A200E006ABE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F8B3A8262A200A006ABE9F /* CriptoBeca */;
+			targetProxy = 66F8B3C3262A200E006ABE9F /* PBXContainerItemProxy */;
+		};
+		66F8B3CF262A200E006ABE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F8B3A8262A200A006ABE9F /* CriptoBeca */;
+			targetProxy = 66F8B3CE262A200E006ABE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F8B3B2262A200A006ABE9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F8B3B3262A200A006ABE9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F8B3BA262A200E006ABE9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F8B3BB262A200E006ABE9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F8B3D4262A200E006ABE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66F8B3D5262A200E006ABE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F8B3D7262A200E006ABE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCF3A97E84217CCD9D5F5AB /* Pods-CriptoBeca.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F4556C25L;
+				INFOPLIST_FILE = CriptoBeca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.everis.CriptoBeca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66F8B3D8262A200E006ABE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C7D00CA5E1366C6AC80C0E /* Pods-CriptoBeca.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F4556C25L;
+				INFOPLIST_FILE = CriptoBeca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.everis.CriptoBeca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		66F8B3DA262A200E006ABE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DABCC0170D7630CA4615C7 /* Pods-CriptoBecaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F4556C25L;
+				INFOPLIST_FILE = CriptoBecaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.everis.CriptoBecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CriptoBeca.app/CriptoBeca";
+			};
+			name = Debug;
+		};
+		66F8B3DB262A200E006ABE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 753CF5EC47C1DAA88B953B24 /* Pods-CriptoBecaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F4556C25L;
+				INFOPLIST_FILE = CriptoBecaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.everis.CriptoBecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CriptoBeca.app/CriptoBeca";
+			};
+			name = Release;
+		};
+		66F8B3DD262A200E006ABE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0645BE00B765EFF78AE57A36 /* Pods-CriptoBeca-CriptoBecaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F4556C25L;
+				INFOPLIST_FILE = CriptoBecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.everis.CriptoBecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CriptoBeca;
+			};
+			name = Debug;
+		};
+		66F8B3DE262A200E006ABE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3775215373A1935A10DB21 /* Pods-CriptoBeca-CriptoBecaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F4556C25L;
+				INFOPLIST_FILE = CriptoBecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.everis.CriptoBecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CriptoBeca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F8B3A4262A200A006ABE9F /* Build configuration list for PBXProject "CriptoBeca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F8B3D4262A200E006ABE9F /* Debug */,
+				66F8B3D5262A200E006ABE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F8B3D6262A200E006ABE9F /* Build configuration list for PBXNativeTarget "CriptoBeca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F8B3D7262A200E006ABE9F /* Debug */,
+				66F8B3D8262A200E006ABE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F8B3D9262A200E006ABE9F /* Build configuration list for PBXNativeTarget "CriptoBecaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F8B3DA262A200E006ABE9F /* Debug */,
+				66F8B3DB262A200E006ABE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F8B3DC262A200E006ABE9F /* Build configuration list for PBXNativeTarget "CriptoBecaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F8B3DD262A200E006ABE9F /* Debug */,
+				66F8B3DE262A200E006ABE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		66F8B3B5262A200A006ABE9F /* CriptoBeca.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66F8B3B6262A200A006ABE9F /* CriptoBeca.xcdatamodel */,
+			);
+			currentVersion = 66F8B3B6262A200A006ABE9F /* CriptoBeca.xcdatamodel */;
+			path = CriptoBeca.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 66F8B3A1262A200A006ABE9F /* Project object */;
+}
